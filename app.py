@@ -74,7 +74,11 @@ def precipitation():
     return jsonify(Precipitation)
 
     
+<<<<<<< HEAD
 @app.route("/api/v1.0/stations")
+=======
+@app.route("/api/v1.0/precipitation")
+>>>>>>> aab991bd4f5c762eb268e8d59303e34982c20826
 def stations():
     session = Session(engine)
     
